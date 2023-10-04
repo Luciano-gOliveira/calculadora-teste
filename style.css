@@ -2,11 +2,25 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: rgb(200, 185, 216);
+}
 h1{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
 
+}
+
+h3{
+    color: aliceblue;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
 .campos{
     display: flex;
@@ -16,10 +30,17 @@ h1{
 }
 
 .entradas {
+    background-color: rgb(187, 110, 211);
+    border: 5px solid black;
+    border-radius: 13px;
     display: flex;
     flex-direction: column; /* Alterando o layout para coluna */
     align-items: center;
     padding: 10px;
+}
+
+div .num1,.operador,.num2{
+    background-color: rgb(215, 187, 238);
 }
 .entradas input{
     border-radius: 10px;
