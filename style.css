@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.campos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+}
+
+.entradas {
+    display: flex;
+    flex-direction: column; /* Alterando o layout para coluna */
+    align-items: center;
+    padding: 10px;
+}
+.entradas input{
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.entradas input[type="submit"] {
+    border-radius: 10px; /* Adicionando bordas arredondadas ao botão */
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.resu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bot{
+    height: 35px;
+    width: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.bot-porcentagem {
+    display: inline-block;
+    margin-right: 5px; /* Adicionando margem à direita para separar os botões */
+}
+.bott{
+    height: 35px;
+    width: 70px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculadora</title>
+</head>
+<body>
+    <h1>calculadora</h1>
+    <form id="calculadora">
+        <div class="campos">
+            <div class="entradas">
+                <input type="text" name="campo 1" id="num1" placeholder="digite o primeiro número">
+                <input type="text" name="operadores" id="operador" placeholder="digite aqui operção desejada">
+                <button class="bot bot-porcentagem" onclick="calculatePercentage(5)">%5</button> <button class="bot bot-porcentagem" onclick="calculatePercentage(10)">%10</button>
+                <input type="text" name="num2" id="num2" placeholder="digite o segundo número">
+                <input type="submit" value="=">
+            </div>
+        </div>
+    </form>
+
+    <ul id="resultado" class="resu">
+
+    </ul>
+    <br>
+    <footer>
+        <h1>feito por rickelme </h1>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
